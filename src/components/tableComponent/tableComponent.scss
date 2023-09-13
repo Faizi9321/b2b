@@ -1,0 +1,208 @@
+.action-dropdown {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 2px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+}
+
+[dir=rtl] .action-dropdown {
+    left: 10px;
+    right: auto;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.btns-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    place-content: flex-start;
+    align-items: baseline;
+}
+
+[dir=rtl] .btns-list {
+    align-items: flex-start;
+}
+
+.btns-list li {
+    padding: 10px 14px;
+    cursor: pointer;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    color: #252733;
+    font-family: 'poppins';
+}
+
+.mdc-data-table__cell,
+.mdc-data-table__header-cell {
+    text-align: center;
+}
+
+.label {
+    border-radius: 5px;
+    padding: 4px 14px;
+    text-align: center;
+    font-family: 'poppins-semibold';
+    font-size: 10px;
+}
+
+.total-count {
+    font-size: 14px;
+    width: 50%;
+    margin-inline: 30px;
+    align-self: center;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+// customize svelte material switch 
+.mdc-switch .mdc-switch__track {
+    height: 20px;
+    border-radius: 14px;
+}
+
+.mdc-switch .mdc-switch__handle {
+    height: 15px;
+    width: 15px;
+}
+
+.mdc-switch:enabled .mdc-switch__track::before {
+    background: #BCBCBC;
+}
+
+.mdc-switch:enabled .mdc-switch__track::after,
+.mdc-switch:enabled:hover:not(:focus):not(:active) .mdc-switch__track::after {
+    background: #00CF15;
+}
+
+.mdc-switch.mdc-switch--selected:enabled .mdc-switch__handle::after,
+.mdc-switch.mdc-switch--unselected:enabled .mdc-switch__handle::after,
+.mdc-switch.mdc-switch--selected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after,
+.mdc-switch.mdc-switch--unselected:enabled:hover:not(:focus):not(:active) .mdc-switch__handle::after {
+    background: white;
+}
+
+.mdc-switch__handle-track {
+    left: 4px;
+    right: 4px;
+}
+
+.qty-block {
+    height: 28px;
+    border-radius: 44px;
+}
+
+.disabled {
+    opacity: 0.4;
+    background: #7676801f;
+    color: black;
+    pointer-events: none;
+}
+
+.qty-icon {
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.qty-input {
+    width: 36px;
+    font-size: 16px;
+    text-align: center;
+    margin-inline: 4px;
+    border: 0px;
+    direction: ltr;
+}
+
+// for volume cell
+.volume-img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin: 6px;
+    position: relative;
+}
+
+.volume-cell {
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.volume-dropdown {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 2px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+    position: absolute;
+    width: 154px;
+    height: auto;
+    z-index: 1000;
+    top: auto;
+    transition: 0.1s ease-in;
+    display: flex;
+    flex-direction: column;
+}
+
+.volume-dropdown-content {
+    display: flex;
+    place-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    color: #252733;
+}
+
+[dir=rtl] .volume-dropdown-content {
+    padding-inline: 10px;
+}
+
+.category-label {
+    background: #F1F1F1;
+    border-radius: 25px;
+    padding: 6px;
+    color: #120000;
+    font-size: 10px;
+    text-align: center;
+    min-width: 100px;
+    width: fit-content;
+    padding-inline: 16px;
+}
+
+.category-name {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.expand-btn {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    color: #1779B8;
+    height: 26px;
+    width: 23px;
+}
+
+[dir=rtl] .mdc-data-table__header-cell,
+[dir=rtl] .mdc-data-table__cell {
+    text-align: center;
+}

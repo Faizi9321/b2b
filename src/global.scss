@@ -1,0 +1,96 @@
+// set custom font style for whole app
+@font-face {
+  font-family: poppins;
+  src: url('/fonts/Poppins-Regular.ttf') format("opentype");
+}
+
+@font-face {
+  font-family: poppins-semibold;
+  src: url('/fonts/Poppins-SemiBold.ttf') format("opentype");
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url('/fonts/Poppins-Black.ttf') format("opentype");
+}
+
+@font-face {
+  font-family: poppins-light;
+  src: url('/fonts/Poppins-Light.ttf') format("opentype");
+}
+
+.ff-poppins {
+  font-family: poppins !important;
+}
+
+.ff-poppins-bold {
+  font-family: poppins-bold !important;
+}
+
+.ff-poppins-semibold {
+  font-family: poppins-semibold !important;
+}
+
+.ff-poppins-light {
+  font-family: poppins-light !important;
+}
+
+// customize button for whole app
+.btn {
+  background: linear-gradient(90.55deg, #1879B8 0.29%, #14A3D8 98.5%);
+  border-radius: 7px !important;
+  color: white !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+  height: 50px;
+}
+
+.mdc-button--unelevated:disabled {
+  background: rgba(0, 0, 0, .12) !important;
+}
+
+//customize checkbox for whole app
+.mdc-checkbox .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not([data-indeterminate=true])~.mdc-checkbox__background {
+  background: #F3F3F3;
+  border: 1px solid #BABABA;
+  border-radius: 4px;
+}
+
+.mdc-checkbox__native-control:checked~.mdc-checkbox__background {
+  background: #1779B8 !important;
+  border: 1px solid #1779B8 !important;
+  border-radius: 4px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+// cusotmize scrollbar for whole except firefox
+::-webkit-scrollbar {
+  width: 1vw;
+  padding: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(153, 153, 153, 0.2);
+  border-radius: 8px;
+}
+
+.mdc-card {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+.mdc-text-field--disabled {
+  pointer-events: none;
+  background: #F5F5F5;
+  border-radius: 13px;
+}
+
+.arabic-field .mdc-text-field__input{
+  text-align: right !important;
+  width: 92% !important;
+}

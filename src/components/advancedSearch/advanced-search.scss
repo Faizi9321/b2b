@@ -1,0 +1,108 @@
+.main-advance-search {
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+.shaped-outlined {
+    height: 40px;
+}
+
+.shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading {
+    border-radius: 12px 0 0 12px;
+    width: 28px;
+}
+
+.shaped-outlined .mdc-notched-outline .mdc-notched-outline__trailing {
+    border-radius: 0 12px 12px 0;
+}
+
+.shaped-outlined.mdc-text-field--with-leading-icon:not(.mdc-text-field--label-floating) .mdc-floating-label {
+    left: 16px;
+}
+
+.dropdown .shaped-filled,
+.dropdown .shaped-filled .mdc-select__anchor {
+    height: 40px;
+    border-style: none;
+    min-width: 200px;
+    max-width: max-content;
+}
+
+.shaped-filled .mdc-notched-outline__trailing {
+    border-radius: 12px !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.shaped-filled .mdc-notched-outline__leading {
+    display: none;
+}
+
+.mdc-line-ripple {
+    display: none;
+}
+
+.mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-select__dropdown-icon {
+    fill: rgba(0, 0, 0, 0.54);
+}
+
+.sliderEnd.svelte-nnopc8 {
+    display: none;
+}
+
+.sliderStart.svelte-nnopc8 {
+    display: none;
+}
+
+.heading {
+    display: none;
+}
+
+.dateSelect.svelte-nnopc8 {
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+}
+
+.s-wamaZontyIa8 {
+    margin-bottom: 12px;
+}
+
+.datePicker {
+    height: 50px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-gap: 10px;
+    margin-top: 14px;
+}
+
+[dir=rtl] .shaped-outlined .mdc-notched-outline .mdc-notched-outline__leading {
+    border-radius: 0 12px 12px 0;
+    width: 28px;
+}
+
+[dir=rtl] .shaped-outlined .mdc-notched-outline .mdc-notched-outline__trailing {
+    border-radius: 12px 0 0 12px;
+}
+
+[dir=rtl] .shaped-filled .mdc-notched-outline__trailing {
+    border-radius: 12px !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.38);
+    border-right: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+
+.mdc-notched-outline__notch{
+    width: auto !important;
+    border: none !important;
+}
+
+.mdc-floating-label .mdc-floating-label--float-above{
+    transform: none !important;
+}
+
+.mdc-select--outlined .mdc-floating-label {
+    transform: none !important;
+    left: 14px;
+    top: 30%;
+    position: fixed;
+}

@@ -1,0 +1,103 @@
+.shaped-filled,
+.shaped-filled .mdc-select__anchor {
+    height: 40px;
+    border-style: none;
+}
+
+.shaped-filled .mdc-notched-outline__trailing {
+    border-radius: 12px !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.shaped-filled .mdc-notched-outline__leading {
+    display: none;
+}
+
+.mdc-notched-outline__notch{
+    width: auto !important;
+    border: none !important;
+}
+
+.mdc-floating-label .mdc-floating-label--float-above{
+    transform: none !important;
+}
+
+.mdc-select--outlined .mdc-floating-label {
+    transform: none !important;
+    left: 14px;
+    top: 30%;
+    position: fixed;
+}
+
+.mdc-line-ripple {
+    display: none;
+}
+
+.mdc-select:not(.mdc-select--disabled).mdc-select--focused .mdc-select__dropdown-icon {
+    fill: rgba(0, 0, 0, 0.54);
+}
+
+.mdc-button__ripple {
+    display: none;
+}
+
+.delivery-details {
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    grid-column-gap: 20px;
+}
+
+.topBtn {
+    display: flex;
+    place-content: space-between;
+    align-items: center;
+}
+
+.tab-section {
+    padding: 40px 0;
+    display: flex;
+    place-content: space-between;
+    align-items: center;
+}
+
+.tab-card {
+    background: #ffffff;
+    box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+    border-radius: 70px;
+    padding: 14px;
+    height: 26px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.tab-btn {
+    text-transform: capitalize;
+}
+
+.products-block {
+    margin-top: 30px;
+    display: flex;
+    grid-gap: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.no-products {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.products-buttons {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    margin: 40px 0 20px;
+    grid-gap: 18px;
+}
+
+[dir=rtl] .shaped-filled .mdc-notched-outline__trailing {
+    border-radius: 12px !important;
+    border-left: 1px solid rgba(0, 0, 0, 0.38);
+    border-right: 1px solid rgba(0, 0, 0, 0.38);
+}

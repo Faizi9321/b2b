@@ -1,0 +1,131 @@
+.logo-bg {
+	background: linear-gradient(353.67deg, #1879b8 8.71%, #14a3d8 85.42%);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	place-content: space-evenly;
+	align-items: center;
+	width: 40%;
+}
+
+.logo-bg-bottom {
+	display: flex;
+	flex-direction: column;
+	place-content: space-around;
+	align-items: center;
+}
+
+.illustration {
+	width: 400px;
+	margin-right: 14px;
+}
+
+.illustration_blockText {
+	color: white;
+	font-size: 18px;
+	line-height: 17px;
+	padding-top: 26px;
+}
+
+.content {
+	background: white;
+	margin-left: -10px;
+	border-radius: 15px 0px 0px 15px;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	place-content: baseline;
+	align-items: center;
+}
+
+.language-bar {
+	display: flex;
+	place-content: space-between;
+	align-items: center;
+	width: 90%;
+	margin-top: 20px;
+}
+
+.topLabel {
+	border: 1px solid #B9B8B8;
+	border-radius: 7px;
+	padding: 6px 14px;
+}
+
+.icon-lang {
+	width: 30px;
+	height: 30px;
+	padding: 5px 6px 0 10px;
+}
+
+// customize material select
+.select-lang {
+	&.mdc-select--filled .mdc-select__anchor {
+		height: 40px !important;
+		align-items: flex-start !important;
+	}
+
+	&.mdc-select--filled:not(.mdc-select--disabled) .mdc-select__anchor {
+		background: #F3F3F3 !important;
+		border-radius: 7px !important;
+	}
+
+	.mdc-line-ripple::before,
+	.mdc-line-ripple::after {
+		border-bottom: none !important;
+	}
+}
+
+.forms {
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	place-content: center;
+	overflow: auto;
+}
+
+.smui-text-field--standard,
+.smui-select--standard .mdc-select__anchor {
+	height: 40px !important;
+}
+
+.auth-form {
+	display: flex;
+	flex-direction: column;
+	place-content: space-between;
+	width: 50%;
+}
+
+.forgot-password {
+	text-align: center;
+	color: #868686;
+	cursor: pointer;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.forgot-pass:hover {
+	color: #14A3D8;
+}
+
+.otp-fields {
+	width: 13.5%;
+	height: 50px !important;
+	border: none;
+	border-bottom: 1px solid #868686;
+	margin-right: 10px;
+}
+
+.otp-fields:focus {
+	outline: none;
+}
+
+.otp-fields .mdc-text-field__input {
+	text-align: center !important;
+	font-size: 30px !important;
+}
+
+.mdc-line-ripple {
+	display: inherit !important;
+}
